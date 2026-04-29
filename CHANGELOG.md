@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- No unreleased changes yet.
+
+## v1.0.0 - 2026-04-29
+
 ### Added
 - Per-chat dialogue runtime in `core/userbot.py` with separate state for each `chat_id`.
 - Thought grouping for bursts of user messages, so short consecutive messages are treated as one user turn.

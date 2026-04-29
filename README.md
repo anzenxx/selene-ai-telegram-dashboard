@@ -20,6 +20,7 @@
   <img src="https://img.shields.io/badge/SQLite-local-3F7F5F?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Telethon-Telegram-229ED9?style=flat-square&logo=telegram&logoColor=white" alt="Telethon" />
   <img src="https://img.shields.io/badge/Claude-Anthropic-6B5B95?style=flat-square" alt="Anthropic Claude" />
+  <img src="https://img.shields.io/badge/version-v1.0.0-B6A7E8?style=flat-square" alt="Version v1.0.0" />
   <img src="https://img.shields.io/badge/license-MIT-6AA84F?style=flat-square" alt="MIT license" />
 </p>
 
@@ -88,6 +89,8 @@ Use `.env.example` as a reference for required credentials. Real credentials are
 ```bash
 python main.py
 ```
+
+Current release: `v1.0.0`.
 
 ## Add a Profile
 

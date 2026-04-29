@@ -41,10 +41,10 @@ TIMEZONES = [
     "Asia/Bangkok",
 ]
 
-CURRENT_VERSION = "Selene Portfolio Preview"
+CURRENT_VERSION = "v1.0.0"
 RELEASE_NOTES = [
     {
-        "version": "Selene Portfolio Preview",
+        "version": "v1.0.0",
         "title": "Userbot Workspace",
         "kind": "major",
         "changes": [
