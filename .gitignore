@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+*.env
+db/*.db
+db/*.db-journal
+db/*.sqlite
+db/*.sqlite3
+sessions/*
+!sessions/.gitkeep
+
+# Build artifacts
+build/
+build_*/
+dist/
+dist_*/
+*.spec~
+
+# Logs and temporary files
+*.log
+*.tmp
+.pytest_cache/
