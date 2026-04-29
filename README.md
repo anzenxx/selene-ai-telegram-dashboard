@@ -1,9 +1,35 @@
-# Selene
-### Local desktop dashboard for managing AI-assisted Telegram accounts
+<p align="center">
+  <img src="gui/assets/selene.png" alt="Selene logo" width="180" />
+</p>
+
+<h1 align="center">Selene</h1>
+
+<p align="center">
+  <strong>Local desktop dashboard for managing AI-assisted Telegram accounts</strong>
+</p>
+
+<p align="center">
+  <a href="#english">English</a> |
+  <a href="#deutsch">Deutsch</a> |
+  <a href="#русский">Русский</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/GUI-CustomTkinter-2F6F9F?style=flat-square" alt="CustomTkinter" />
+  <img src="https://img.shields.io/badge/SQLite-local-3F7F5F?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Telethon-Telegram-229ED9?style=flat-square&logo=telegram&logoColor=white" alt="Telethon" />
+  <img src="https://img.shields.io/badge/Claude-Anthropic-6B5B95?style=flat-square" alt="Anthropic Claude" />
+  <img src="https://img.shields.io/badge/license-MIT-6AA84F?style=flat-square" alt="MIT license" />
+</p>
 
 Selene is a Python desktop application for configuring, launching, and monitoring multiple AI-assisted Telegram automation profiles. It combines Telethon sessions, Anthropic Claude prompts, local SQLite persistence, runtime controls, activity logs, and basic analytics in a single CustomTkinter workspace.
 
-## Features
+Created by Artem Silenko.
+
+---
+
+## Highlights
 
 - Manage multiple Telegram automation profiles from one desktop UI.
 - Configure Telegram API credentials, phone number, timezone, trigger prefix, Claude model, and system prompt per profile.
@@ -15,12 +41,14 @@ Selene is a Python desktop application for configuring, launching, and monitorin
 
 ## Tech Stack
 
-- Python
-- CustomTkinter
-- SQLite
-- Telethon
-- Anthropic Claude API
-- Pillow
+| Layer | Technology |
+|---|---|
+| Desktop UI | CustomTkinter |
+| Language | Python |
+| Messaging | Telethon |
+| AI provider | Anthropic Claude API |
+| Storage | SQLite |
+| Assets | Pillow |
 
 ## Project Structure
 
@@ -88,6 +116,18 @@ If the trigger prefix is empty, the runtime can respond to all private messages 
 - Telethon session files are stored locally in `sessions/`.
 - `.env`, SQLite databases, session files, and build artifacts are ignored by Git.
 - Use a separate Telegram account for testing and respect Telegram platform rules and rate limits.
+
+## English
+
+Selene is a local Python desktop dashboard for managing AI-assisted Telegram automation profiles with local storage, logs, analytics, and configurable Claude prompts.
+
+## Deutsch
+
+Selene ist eine lokale Python-Desktop-App zur Verwaltung von KI-unterstuetzten Telegram-Automatisierungsprofilen mit lokaler Speicherung, Logs, Analysen und konfigurierbaren Claude-Prompts.
+
+## Русский
+
+Selene - локальное desktop-приложение на Python для управления AI-assisted Telegram-профилями с локальной базой данных, логами, аналитикой и настраиваемыми Claude-промптами.
 
 ## License
 
